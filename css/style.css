@@ -1,0 +1,520 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Noto Sans Thai';
+  color: #262E3F;
+}
+.index{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.book, .booktail{
+  background-color: #101541;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+  text-align: center;
+}
+.booking{
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 17px;
+  letter-spacing: 0.02em
+}
+.limited{
+  font-size: 24px;
+  color: #BAD0F2;
+  font-weight: 400;
+}
+.note{
+  line-height: 55px; 
+  font-size: 19px;
+  color: #BAD0F2;
+  font-weight: 400;
+}
+img{
+  max-width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 3%;
+}
+.btn-register{
+  background:linear-gradient(115.71deg, #0BB64C 3%, #27D96B 77%);
+  width: 300px;
+  height: 58px;
+  border-radius: 8px;
+  border: none;
+  font-size: 26px;
+  letter-spacing: 0.01em;
+  margin-bottom: 2.5%;
+  font-weight:700;
+  color: #ffffff;
+  text-decoration: auto;
+  --bs-link-hover-color: #ffffff;
+}
+.btn-register:active {
+  background-color: #0BB64C;
+  transform: translateY(2px);
+}
+.information, .schedule,.rewarded{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10.5% 15px 10.5%;
+  text-align: left;
+  padding: 0 32px 0 32px;
+}
+h1{
+  margin:0%;
+  font-weight: 700 ;
+  font-size: 36px ;
+  line-height: 54px;  
+  letter-spacing: 0.01em;
+  color: #1D1A73;
+  margin: 5px 0px;
+}
+strong {
+  color: #0CC553;
+  font-family: Poppins;
+}
+time{
+  color: #C8FFD4;
+}
+.purpose{
+  font-size: 23px;
+  font-weight: 300;
+}
+ul {
+  padding-left: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+li{margin: 0;
+  margin-bottom: 0.2em;;
+  padding-left: 1.5em;
+  position: relative;
+}
+.purpose ul li::after {
+  content: '';
+  height: .5em;
+  width: .5em;
+  background:#25DF6C;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0.5em;
+  left: 2px;
+}
+.MainSpeaker{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/bg_zone-4.png);
+  background-repeat:space;
+  background-size: auto;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+  padding-bottom: 20px;
+}
+.heading{
+  display: flex;
+  margin: 48px 0px 0px 35px; 
+}
+.heading2{
+  display: flex;
+  padding:27px 31px 19px 31px;
+  background-color:#EEF6FF;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.vl {
+  border: 4px solid #25DF6C;
+  border-radius: 6px;
+  height: 44px;
+  margin-right: 20px;
+}
+.title, .reward{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 36px;
+  background: -webkit-linear-gradient(285.88deg, #0E044B 8.64%, #2C309B 66.53%, #89E8FD 134.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+.speaker{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  letter-spacing: -0.01em;
+  margin: 20px 50px 30px;
+  grid-gap: 60px;
+}
+.nameSpeaker{
+  font-weight: 700;
+  font-size: 24px;
+  color: #1F2883;
+  height: fit-content;
+  text-align: center;
+}
+.position{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  height: fit-content;
+  text-align: center;
+  color: #359EFF;
+}
+.position2{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #359EFF;
+}
+.company{
+  font-weight: 300;
+  font-size: 17px;
+  text-align: center;
+  height: fit-content;
+}
+.speaker img{
+  margin-bottom: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 188px;
+  width: auto;
+}
+.period, .lastperiod{
+  margin-top: 4px;
+  padding: 6px 8px 9px;
+  background-color: #EEF6FF;
+}
+.lastperiod{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.period ul{
+  font-weight: 300;
+  font-size: 23px;
+  padding-left: 1.75rem;
+}
+.period ul li::after {
+  content: '';
+  height: .5em;
+  width: .5em;
+  background:#25DF6C;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0.5em;
+  left: 2px;
+}
+.time, .onlytime{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  background-color: #0CC553;
+  padding: 1rem 1rem 0.75rem 1rem;
+  margin: 17px 25px 20px 25px;
+  border-radius: 100px;
+  width: fit-content;
+}
+.onlytime{
+  float: left;
+}
+lastactvity{
+  float: left;
+  padding: 5px 1rem;
+  margin: 17px 0px 20px;
+  font-weight: 400;
+  font-size: 23px;
+}
+.locationSection{
+  background:linear-gradient(230.87deg, #5D97E3 -7.19%, #0C2192 66.6%);
+  border-radius: 20px;
+  margin: 2.5% 12.5%;
+}
+.location{
+  display: grid;
+  grid-auto-flow: column;
+  padding: 20px;
+}
+svg{
+  color:#FFFFFF;
+  margin: 2.5rem 1rem 2.5rem 0px;
+}
+p{
+  font-weight: 700;
+  font-size: 38px;
+  color:#FFFFFF;
+  margin: 2.5rem 8px 0.5rem 0px;
+}
+p .located{
+  font-weight: 500;
+  font-size: 32px;
+  color:#FFFFFF;
+}
+.btn-map{
+  background:#359EFF;
+  color: #FFFFFF;
+  border-radius: 45px;
+  border: none;
+  font-size: 30px;
+  letter-spacing: 0.01em;
+  margin: 4% 0px;
+  font-weight: bolder;
+  padding: 12px 30px;
+}
+.room{
+  margin: 1.5rem 0px;
+  height: 15rem;
+}
+.rewarded{
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(to bottom,#ffffff,#ffffff, #152F9B,#34EA67,#34EA67) border-box;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  margin: 4% 12.5%;
+  padding: 15px 32px;
+}
+.reward{
+  font-family: 'Noto Sans Thai';
+  font-size: 36px;
+  margin: 0px 32px;
+}
+.rewardItem{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.rewardItem img{
+  display: block;
+  margin: 8% auto 7% 12%;
+  height: 104px;
+}
+.nameReward{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 26px;
+  margin-left: 40px;
+}
+.amount{
+  font-weight: 600;
+  font-size: 22px;
+  color: #6F7788;
+  margin-left: 40px;
+}
+GB{
+  font-weight: 300;
+  color: #6E7788;
+}
+.booktail{ 
+  background:linear-gradient(180deg, #ffffff 43%, #C1E9FF 200%);
+  margin-top: 60px;
+}
+.booktail .booking{
+  color: #0C2292;
+}
+.booktail .booking .limited{
+  color: #6E7788;
+}
+.booktail .booking .limited .note{
+  color: #262E3F;
+}
+.booktail .btn-register{
+  font-weight: 700;
+  font-size: 30px;
+  width: 500px;
+  height: 68px;
+}
+footer{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 11px;
+  color: #6E7788;
+  text-align: center;
+}
+.footer{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 14px;
+  color: #3138A0;
+}
+footer img{
+  margin: 1%;
+}
+/* For various desktop */
+@media only screen and (max-width: 1200px) {
+  lastactvity {
+    margin: 0px 30px 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  lastactvity {
+    margin: 0px 30px 20px;
+  }
+}
+ 
+ /* For taplet */
+@media only screen and (max-width: 990px) {
+  
+  .booking{
+    font-size: 20px;
+  }
+  .limited {
+    font-size: 14px;
+  }
+  .note {
+    line-height: 40px;
+    font-size: 15px;
+  }
+  .btn-register{
+    margin-top: 5px;
+  }
+  .MainSpeaker{
+    background-size: cover;
+  }
+  .nameSpeaker {
+    font-size: 22px;
+  }
+  .speaker {
+    grid-template-columns: 1fr 1fr;
+  }
+  .onlytime {
+    margin: 17px 25px 10px 25px;
+  }
+  lastactvity {
+    margin: 0%;
+    font-size: 20px;
+  }
+  p {
+    font-size: 30px;
+    margin: 0.5rem 0px;
+  }
+  p .located {
+    font-size: 24px;
+  }
+  svg {
+    margin: 2.5rem 1rem 2.5rem 2rem;
+  }
+  .rewardItem img {
+    height: 85px;
+  }
+  .nameReward {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .amount {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .reward {
+    font-size: 29px;
+    margin: 0px 15px;
+  }
+  .room,footer img {
+    display: none;
+  }
+  .booktail {
+    margin-top: 30px;
+  }
+  .booktail .btn-register{
+    width: 430px;
+  }
+  footer{
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .footer{
+    font-size: 16px;
+  }
+} 
+@media only screen and (max-width: 560px) {
+  /* For mobile */
+  .room,footer img {
+    display: none;
+  }
+  .booking{
+    font-size: 16px;
+  }
+  .limited {
+    font-size: 14px;
+  }
+  .note {
+    line-height: 20px;
+    font-size: 10px;
+  }
+  .btn-register{
+    width: 160px;
+    height: 28px;
+    font-size: 18px;
+  }
+  .nameSpeaker {
+    font-size: 23px;
+  }
+  .speaker{
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+ .time,.onlytime{
+    font-size: 16px;
+    line-height: 1em;
+    margin: 17px 0px 20px 5px
+  }
+ .onlytime{
+    margin: 17px 30px 15px 30px;
+  }
+  lastactvity{
+    margin: 0px 0px 0px 25px;
+  }
+  .btn-map{
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  p {
+    font-size: 28px;
+    margin: 0.5rem 0px;
+  }
+  p .located {
+    font-size: 25px;
+  }
+  .nameReward, .amount{
+    font-size: 20px;
+  }
+  .reward {
+    font-size: 26px;
+    margin: 0px 13px;
+  }
+  .rewardItem{
+    grid-template-columns: 1fr 1fr 0fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+  }
+  GB{
+    display: none;
+  }
+  .booktail{
+    margin-top: 25px;
+  }
+  .booktail .btn-register{
+    width: 275px;
+    margin-top: 3%;
+  }
+  footer{
+    font-size: 10px;
+  }
+  .footer{
+    font-size: 13px;
+  }
+}
+
